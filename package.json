@@ -3,10 +3,7 @@
     "version": "0.0.1",
     "description": "封装ssh2提供的接口，提供命令行工具",
     "main": "index.js",
-    "directories": {
-        "example": "examples"
-    },
-    "repository": "",
+    "repository": "https://github.com/zenyu/ruhnn-sftp-cli.git",
     "bin": {
         "sftp-cli": "./cli.js"
     },
@@ -18,8 +15,8 @@
     },
     "devDependencies": {},
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "run": "./cli.js"
     },
-    "author": "",
+    "author": "ZenYu",
     "license": "ISC"
 }
